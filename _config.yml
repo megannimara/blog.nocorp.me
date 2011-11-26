@@ -1,3 +1,8 @@
 auto: true
 permalink: pretty
 exclude: README.md, Gemfile, Gemfile.lock
+
+pygments: true
+markdown: redcarpet
+redcarpet:
+  extensions: ['fenced_code', 'gh_blockcode']
