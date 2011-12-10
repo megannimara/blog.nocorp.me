@@ -1,0 +1,21 @@
+body {
+  background: #fffffb;
+  font-family: Helvetica Neue;
+}
+
+.post h2 {
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.post-content {
+  width: 700px;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 30px 50px;
+}
+
+.post-comments {
+  padding: 30px 50px;
+  background: #f8f8f6 url('/images/comments_background.gif') repeat-x;
+}
