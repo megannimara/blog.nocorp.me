@@ -1,21 +1,37 @@
 body {
   background: #fffffb;
-  font-family: Helvetica Neue;
+  font-family: 'PT Serif', serif;
+  color: #2d2720;
+}
+
+a {
+  color: #634a2b;
+}
+
+a:hover {
+  color: #9c8b56;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 0 50px;
+  font-size: 18px;
 }
 
 .post h2 {
   font-size: 25px;
   line-height: 33px;
+  color: #382a18;
 }
 
 .post-content {
-  width: 700px;
+  max-width: 800px;
   font-size: 17px;
-  line-height: 25px;
-  padding: 30px 50px;
+  line-height: 27px;
+  padding: 5px 50px 25px;
 }
 
 .post-comments {
-  padding: 30px 50px;
+  padding: 45px 50px 30px;
   background: #f8f8f6 url('/images/comments_background.gif') repeat-x;
 }
