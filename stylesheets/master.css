@@ -16,19 +16,25 @@ a:hover {
 h1 {
   padding: 0 50px;
   font-size: 18px;
+  margin: 30px 0;
 }
 
 .post h2 {
   font-size: 25px;
   line-height: 33px;
   color: #382a18;
+  padding-bottom: 20px;
 }
 
 .post-content {
   max-width: 800px;
   font-size: 17px;
   line-height: 27px;
-  padding: 5px 50px 15px;
+  padding: 0 50px 20px;
+}
+
+.post-content p {
+  padding-bottom: 15px;
 }
 
 .post-likes {
@@ -38,4 +44,13 @@ h1 {
 .post-comments {
   padding: 45px 50px 30px;
   background: #f8f8f6 url('/images/comments_background.gif') repeat-x;
+}
+
+.posts-list {
+  padding: 0 50px;
+}
+
+.posts-item {
+  list-style: disc;
+  margin-bottom: 10px;
 }
