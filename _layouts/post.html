@@ -4,6 +4,10 @@ layout: default
 
 <div class="post">
 
+  <p class="post-date">
+    {{ page.date | date: "%d.%m.%Y" }}
+  </p>
+
   <div class="post-content">
     {{ content }}
   </div>

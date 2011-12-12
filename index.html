@@ -1,10 +1,18 @@
 ---
 layout: default
-title: Home
+title: Все записи
 ---
 
 <ul class="posts-list">
   {% for post in site.posts %}
-    <li class="posts-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="posts-post">
+      <p class="posts-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+      <h2 class="posts-title" >
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <h3 class="posts-about">
+        {{ post.about }}
+      </h3>
+    </li>
   {% endfor %}
 </ul>

@@ -14,9 +14,14 @@ a:hover {
 }
 
 h1 {
-  padding: 0 50px;
   font-size: 18px;
-  margin: 30px 0;
+  margin: 30px 120px 50px;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #88837C;
+  margin: 0 120px 7px;
 }
 
 .post h2 {
@@ -30,7 +35,7 @@ h1 {
   max-width: 800px;
   font-size: 17px;
   line-height: 27px;
-  padding: 0 50px 20px;
+  padding: 0 120px 20px;
 }
 
 .post-content p {
@@ -38,19 +43,35 @@ h1 {
 }
 
 .post-likes {
-  padding: 0 50px 30px;
+  padding: 0 120px 30px;
 }
 
 .post-comments {
-  padding: 45px 50px 30px;
+  padding: 45px 120px 30px;
   background: #f8f8f6 url('/images/comments_background.gif') repeat-x;
 }
 
 .posts-list {
-  padding: 0 50px;
+  margin: 45px 120px 0;
 }
 
-.posts-item {
-  list-style: disc;
-  margin-bottom: 10px;
+.posts-post {
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.posts-date {
+  font-size: 14px;
+  color: #88837C;
+  margin-bottom: 7px;
+}
+
+.posts-title {
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.posts-about {
+  font-size: 16px
 }
