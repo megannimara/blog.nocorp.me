@@ -5,6 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Блог Саши Косса</title>
 
+  <icon>http://blog.nocorp.me/images/favicon.png</icon>
   <link href="http://blog.nocorp.me/feed" rel="self"/>
   <link href="http://blog.nocorp.me/"/>
 
