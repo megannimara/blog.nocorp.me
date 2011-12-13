@@ -18,6 +18,21 @@ h1 {
   margin: 30px 120px 50px;
 }
 
+.feed {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  font-size: 13px;
+}
+
+.feed a {
+  color: #a35b26;
+}
+
+.feed a:hover {
+  color: #ea6900;
+}
+
 .post-date {
   font-size: 14px;
   color: #88837C;
